@@ -1,0 +1,259 @@
+.main_container {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white
+}
+
+.header_block {
+    width: 100%;
+    height: 10vh;
+    background-color: #4d9aa4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.block_row {
+    display: flex;
+    gap: 120px
+}
+
+.picture_block {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/Sea.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+}
+
+button {
+    background: transparent;
+    margin-top: 25px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.footer_block {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.text_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 15px;
+    position: relative;
+    top: 60px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 80px;
+}
+
+.Three_blocks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20vh;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.block {
+    width: 70%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+.Kally {
+    background-color: rgb(38, 245, 117);
+}
+
+.Kally p,
+h2 {
+    padding: 10px 30px;
+}
+
+.John {
+    background-color: violet;
+}
+
+.John p,
+h2 {
+    padding: 10px 30px;
+}
+
+.Danny {
+    background-color: rgb(255, 38, 0);
+}
+
+.Danny p,
+h2 {
+    padding: 10px 30px;
+}
+
+.man {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.trademarks {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .block_row {
+        display: flex;
+        gap: 60px
+    }
+    .text_block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 15px;
+        position: relative;
+        top: 60px;
+        text-align: center;
+        padding-top: 25px;
+    }
+    .Kally p,
+    .John p,
+    .Danny p {
+        font-size: smaller;
+    }
+    .trademarks {
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .block_row {
+        display: flex;
+        gap: 10px
+    }
+    h1 {
+        font-size: 20px;
+    }
+    a {
+        font-size: 10px;
+    }
+    .picture_block {
+        width: 100%;
+        height: 100vh;
+        background-image: url(img/Sea.png);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 10px;
+    }
+    button {
+        background: transparent;
+        margin-top: 25px;
+        border: 1px solid white;
+        border-radius: 5px;
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+    h2 {
+        font-size: 15px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .text_block p {
+        font-size: 10px;
+        text-align: center;
+    }
+    .logos img {
+        width: 30px;
+        height: 25px;
+    }
+    .block {
+        width: 75%;
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+    }
+    .Kally p,
+    .John p,
+    .Danny p {
+        font-size: 10px;
+    }
+    .block {
+        width: 75%;
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+    }
+    .Kally img,
+    .John img,
+    .Danny img {
+        width: 45px;
+        height: 40px;
+        margin-top: 10px;
+    }
+    .trademarks img {
+        width: 25px;
+        height: 25px;
+    }
+    p {
+        font-size: 10px;
+    }
+}
